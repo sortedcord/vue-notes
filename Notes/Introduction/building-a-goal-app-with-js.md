@@ -20,4 +20,5 @@ Root folder
 
 This is a basic application, that takes the input from the user and displays it as a "goal" in a list.
 
-First the user enters
+* First the user enters some data in the text field and clicks the button
+* Js listens to the click event, takes the data entered in the text field and appends to the list.
