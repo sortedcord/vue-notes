@@ -3,7 +3,7 @@
 ## Table Of Contents
 
 1. [What is Vue.js](what-is-vuejs.md)
-    1. [Why use Vue.js](what-is-vuejs.md#why-use-vue.js)
+    1. [Why use Vue.js](what-is-vuejs.md#why-use-vuejs)
     2. [Why Vanilla.js might not be ideal for all kinds of apps](what-is-vuejs.md#why-vanillajs-might-not-be-ideal-for-all-kinds-of-apps)
 2. [Different Ways of Using Vue.js](different-ways-of-using-vuejs.md)
     1. [Widget approach on a multi-page application](different-ways-of-using-vuejs.md#widget-approach-on-a-multi-page-application)
