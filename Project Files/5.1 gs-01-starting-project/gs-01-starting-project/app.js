@@ -10,6 +10,7 @@ function addGoal() {
     listItem.textContent = enteredValue;
     list.appendChild(listItem);
     formInput = ''; //Resets the value of the input
+    
 }
 
 formButton.addEventListener('click', addGoal); // Listen to click // 'addGoal' is not executed. It just points to it
