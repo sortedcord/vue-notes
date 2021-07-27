@@ -14,8 +14,8 @@
 
 Some background first:
 
--   **Angular is a framework developed by Google**: Google also uses Angular internally, hence we’ll not see Angular disappear over night. It will be maintained and continuously improved
--   **React is a library built by Facebook**: Facebook also uses React internally, hence we’ll not see React disappear over night. It will be maintained and continuously improved
+-   **Angular is a framework developed by Google**: Google also uses #Angular internally, hence we’ll not see #Angular disappear over night. It will be maintained and continuously improved
+-   **React is a library built by Facebook**: Facebook also uses #React internally, hence we’ll not see #React disappear over night. It will be maintained and continuously improved
 -   **Vue is a “standalone” project** that is not built inside of any company. It used to be a one-man show ([Evan You, its founder](https://twitter.com/youyuxi)) but those days are long gone. Nowadays, it has a dedicated team of [core contributors](https://vuejs.org/v2/guide/team.html) that work on Vue.
 
 ## Comparing Philosophies
@@ -24,7 +24,7 @@ Let’s start with the general philosophy of each framework (side-note: I’ll s
 
 ### Angular
 
-Angular definitely is the “biggest” framework of the three. It’s sometimes even called a “platform” rather than a framework.
+#Angular definitely is the “biggest” framework of the three. It’s sometimes even called a “platform” rather than a framework.
 
 Why?
 

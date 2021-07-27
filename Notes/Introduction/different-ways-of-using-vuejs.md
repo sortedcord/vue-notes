@@ -9,7 +9,7 @@
 
 *   ## (SPA) Single-page Application approach
 
-    Another approah of using vue.js would be to code the entire front-end in vue.js so every element is rendered and controlled by vue.js.
+    Another approach of using vue.js would be to code the entire #frontend in vue.js so every element is rendered and controlled by vue.js.
 
     In this case, the server sends only one HTML file, thereafter, vue takes over and controls the UI.
     

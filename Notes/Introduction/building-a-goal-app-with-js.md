@@ -22,3 +22,5 @@ This is a basic application, that takes the input from the user and displays it 
 
 * First the user enters some data in the text field and clicks the button
 * Js listens to the click event, takes the data entered in the text field and appends to the list.
+
+Next we will try to rebuild the application with vue.js and see why Vue.js can be more convinient a better aproach than vanilla.js.

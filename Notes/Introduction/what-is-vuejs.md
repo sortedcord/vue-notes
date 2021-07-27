@@ -1,6 +1,6 @@
 # What is vue.js
 
-Vue.js is a #component-based #javascript #framework that makes building interactive and _reactive_ _web frontends_ easier. 
+Vue.js is a #component-based #javascript #framework that makes building interactive and _reactive_ _web #frontend_  easier. 
 
 `Javascript` is a programming language that is supported by all modern browsers. It allows you to manipulate what the user sees on the screen without fetching new page from the server.
 
@@ -18,7 +18,7 @@ Traditionally, in a web app, you click a link and wait for a new page to lead. Y
 
 ### Why Vanilla.js might not be ideal for all kinds of apps
 
-In an ideal world, no frameowrk such as vue.js is needed but in such a case 
+In an ideal world, no #framework frameowrk such as vue.js is needed but in such a case 
 
 * we would have to write all of the code and logic on our own and reinvent the wheel all over again
 * This makes our code vulnerable to unoptimization, errors and bugs. We may also face security and performance issues. 
