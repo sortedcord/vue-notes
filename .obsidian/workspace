@@ -4,24 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "896974161bee397d",
+        "id": "358c1c2efa754ff4",
         "type": "leaf",
-        "dimension": 57.820512820512825,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Introduction/Introduction.md",
+            "file": "README.md",
             "mode": "source"
           }
-        }
-      },
-      {
-        "id": "5b95d75b24754efb",
-        "type": "leaf",
-        "dimension": 42.17948717948718,
-        "state": {
-          "type": "graph",
-          "state": {}
         }
       }
     ],
@@ -78,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Introduction/Introduction.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "896974161bee397d",
+  "active": "358c1c2efa754ff4",
   "lastOpenFiles": [
+    "README.md",
+    "Assets/Pasted image 20210727170805.png",
     "Notes/Introduction/Introduction.md",
     "Notes/Introduction/building-a-goal-app-with-js.md",
-    "README.md",
     "Notes/Introduction/what-is-vuejs.md",
     "Notes/Introduction/different-ways-of-using-vuejs.md",
     "Notes/Introduction/exploring-vue-alternatives.md",
     "Untitled.md",
     "Notes/Introduction/detailed-framework-comparison.md",
-    "Vue (or Vue.js).md",
-    "Notes/Introduction.md"
+    "Vue (or Vue.js).md"
   ]
 }

@@ -29,3 +29,13 @@ A repository for all of my Vue.js 3 notes.
 9. [Dividing Deeper into Components](https://github.com/bhilburn/powerlevel9k/wiki/Troubleshooting)
 10. [Course Project: The Learning Resources App](https://github.com/bhilburn/powerlevel9k/wiki/Troubleshooting)
 
+
+## How to view these notes
+
+While looking at the individual files, you might have noticed that sometimes, the images won't look right, there will be different tags, etc. That is because I use obsidian.md which is great tool for taking down notes. If you want to see these notes properly, then I suggest using it. I am fully aware that it is built in electron. But worry not, it is very optimized and snappy.
+
+Here is the graph in case you are curious.
+
+![Graph](Assets/Pasted image 20210727170805.png)
+As on 5:10 PM 27th July
+
