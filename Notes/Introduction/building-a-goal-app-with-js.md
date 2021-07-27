@@ -1,6 +1,6 @@
 # Building an app with JS
 
-Directory Tree-
+[Directory Tree of the App](../../project-files/5.1-gs-01-starting-project/)
 
 ```
 Root folder
