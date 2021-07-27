@@ -1,16 +1,16 @@
-# Introductio**n
+# Introduction
 
 ## What is vue.js
 
 Vue.js is a _javascript_ _framework_ that makes building interactive and _reactive_ _web frontends_ easier. 
 
-**Javascript** is a programming language that is supported by all modern browsers. It allows you to manipulate what the user sees on the screen without fetching new page from the server.
+`Javascript` is a programming language that is supported by all modern browsers. It allows you to manipulate what the user sees on the screen without fetching new page from the server.
 
-**Framework** is a third party library which exposes utility and functionality such as methods and tools (Which you don't have to write on your own). Unlike a regular library a framework is a library which also gives you a set of rules, i.e a clear approach that you should follow while writing your application.
+`Framework` is a third party library which exposes utility and functionality such as methods and tools (Which you don't have to write on your own). Unlike a regular library a framework is a library which also gives you a set of rules, i.e a clear approach that you should follow while writing your application.
 
-**Reactive** means that your app is able to react to user's input, update the screen. Such as to show overlays or input validation errors, etc.
+`Reactive` means that your app is able to react to user's input, update the screen. Such as to show overlays or input validation errors, etc.
 
-**Web Frontends** means what the user sees. It's basically the how you app looks like. It is not a server side framework. Helps in providing a rich user interface in the web.
+`Web Frontends` means what the user sees. It's basically the how you app looks like. It is not a server side framework. Helps in providing a rich user interface in the web.
 
 ## Why use Vue.js
 
