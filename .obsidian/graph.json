@@ -1,22 +1,37 @@
 {
   "collapse-filter": true,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Notes/Introduction",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    }
+  ],
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "textFadeMultiplier": 0.7,
+  "nodeSizeMultiplier": 1.3982905982906,
+  "lineSizeMultiplier": 1.3982905982906,
   "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "centerStrength": 0.393162393162393,
+  "repelStrength": 14.7008547008547,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 1,
-  "close": false
+  "linkDistance": 263,
+  "scale": 0.5392459683807999,
+  "close": true
 }
