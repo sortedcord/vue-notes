@@ -4,14 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e5bed56001caf110",
+        "id": "896974161bee397d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Introduction/Introduction.md",
+            "file": "Notes/Introduction/detailed-framework-comparison.md",
             "mode": "source"
           }
+        }
+      },
+      {
+        "id": "5b95d75b24754efb",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -68,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Introduction/Introduction.md",
+                "file": "Notes/Introduction/detailed-framework-comparison.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,18 +91,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "e5bed56001caf110",
+  "active": "896974161bee397d",
   "lastOpenFiles": [
-    "Notes/Introduction/Introduction.md",
-    "Notes/Introduction/what-is-vuejs.md",
-    "Notes/Introduction/exploring-vue-alternatives.md",
-    "README.md",
-    "Notes/Introduction/different-ways-of-using-vuejs.md",
     "Notes/Introduction/detailed-framework-comparison.md",
-    "Untitled.md",
+    "Notes/Introduction/different-ways-of-using-vuejs.md",
+    "Notes/Introduction/exploring-vue-alternatives.md",
+    "Notes/Introduction/what-is-vuejs.md",
+    "Notes/Introduction/Introduction.md",
+    "Vue (or Vue.js).md",
+    "README.md",
     "Notes/Introduction.md",
+    "Untitled.md",
     "Notes/Introduction/Untitled.md"
   ]
 }

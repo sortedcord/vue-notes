@@ -9,7 +9,7 @@ A repository for all of my Vue.js 3 notes.
 
 ### Table of Contents
 
-1. [Introduction](Notes/Introduction/)
+1. [Introduction](Notes/Introduction/Introduction.md)
     1. [What is Vue.js](Notes/Introduction/what-is-vuejs.md)
         1. [Why use Vue.js](Notes/Introduction/what-is-vuejs.md#why-use-vue.js)
         2. [Why Vanilla.js might not be ideal for all kinds of apps](Notes/Introduction/what-is-vuejs.md#why-vanillajs-might-not-be-ideal-for-all-kinds-of-apps)

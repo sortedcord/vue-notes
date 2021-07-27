@@ -1,10 +1,13 @@
 # Detailed Comparison
 
 1. [Framework Backgrounds](#framework-backgrounds)
-2. [[#Comparing Philosophies]]
-	1. [[#Angular]]
-	2. [[#React or React js]]
-	3. [[#Vue or Vue js]]
+2. [Philosophies](#comparing-philosophies)
+	1. [Angular](#angular)
+	2. [React](#react-or-reactjs)
+	3. [Vue](#vue-or-vuejs)
+3. [Is “More” Automatically “Better”?](#is-more-automatically-better)
+4. [Syntax](#comparing-syntax)
+5. [Comparing “Ease of Learning” / Complexity](Comparing “Ease of Learning” / Complexity)
 
 
 ## Framework Backgrounds

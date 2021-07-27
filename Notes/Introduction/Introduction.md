@@ -9,4 +9,4 @@
         1. [Widget approach on a multi-page application](Notes/Introduction/different-ways-of-using-vuejs.md#widget-approach-on-a-multi-page-application)
         2. [(SPA) Single-page Application approach](Notes/Introduction/different-ways-of-using-vuejs.md#(SPA)-Single-page-Application-approach)
     3.  [Exploring Vue Alternatives](Notes/Introduction/exploring-vue-alternatives.md)
-    4.  [Detailed Framework Comparison]
+    4.  [Detailed Framework Comparison](Notes/Introduction/detailed-framework-comparison.md)
