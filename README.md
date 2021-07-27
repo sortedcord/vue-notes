@@ -1,5 +1,8 @@
 # Vue.js Notes
 
+<!-- Shields -->
+[![License](https://img.shields.io/badge/license-GNU-green)]
+
 A repository for all of my Vue.js 3 notes.
 
 ### Table of Contents
