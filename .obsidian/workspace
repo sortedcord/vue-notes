@@ -1,0 +1,101 @@
+{
+  "main": {
+    "id": "16fad9a6511597b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "e5bed56001caf110",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Introduction/exploring-vue-alternatives.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "203f4fd6a8d4746c",
+    "type": "split",
+    "children": [
+      {
+        "id": "85258272d8e96c9b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81cbf549967946e5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "22b363f05f5b330a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "783ccec5c8aa3407",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e98a2d2d521862b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0fbb579145d05638",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes/Introduction/exploring-vue-alternatives.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e5bed56001caf110",
+  "lastOpenFiles": [
+    "Notes/Introduction/exploring-vue-alternatives.md",
+    "Notes/Introduction/Introduction.md",
+    "Untitled.md",
+    "Notes/Introduction/detailed-framework-comparison.md",
+    "Notes/Introduction.md",
+    "Notes/Introduction/what-is-vuejs.md",
+    "Notes/Introduction/different-ways-of-using-vuejs.md",
+    "README.md",
+    "Notes/Introduction/Untitled.md"
+  ]
+}
