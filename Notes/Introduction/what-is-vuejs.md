@@ -1,6 +1,6 @@
 # What is vue.js
 
-Vue.js is a _javascript_ _framework_ that makes building interactive and _reactive_ _web frontends_ easier. 
+Vue.js is a #component-based #javascript #framework that makes building interactive and _reactive_ _web frontends_ easier. 
 
 `Javascript` is a programming language that is supported by all modern browsers. It allows you to manipulate what the user sees on the screen without fetching new page from the server.
 
@@ -14,7 +14,7 @@ Vue.js is a _javascript_ _framework_ that makes building interactive and _reacti
 
 Traditionally, in a web app, you click a link and wait for a new page to lead. You click a button and wait for some action to complete. And this happens again and again. Like submitting a form. Hence, in a traditional webpage, we wait for responses all the time.
 
-Javascript, can help us speed things up. It allows us to create a more modern webapp as it has the advantage of running on the loaded page. Which means that we can use this to change that page, without fetching new html. We can manipulate the HTML structure (Document Object Model) of a page with Javascript. So in modern webapps, we don't send requests again and again, instead, we do this once and thereafter we just exchange data behind the scenes and use client side javascript and its frameworks (Like vue.js) to update what's on the screen.
+#Javascript, can help us speed things up. It allows us to create a more modern webapp as it has the advantage of running on the loaded page. Which means that we can use this to change that page, without fetching new html. We can manipulate the HTML structure (Document Object Model) of a page with Javascript. So in modern webapps, we don't send requests again and again, instead, we do this once and thereafter we just exchange data behind the scenes and use client side javascript and its frameworks (Like vue.js) to update what's on the screen.
 
 ### Why Vanilla.js might not be ideal for all kinds of apps
 
