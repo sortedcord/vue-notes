@@ -1,7 +1,9 @@
+![Vue](https://i.pinimg.com/originals/60/17/da/6017da3ed8f203fe979b16dae1ad2259.png)
+
 # Vue.js Notes
 
 <!-- Shields -->
-[![License](https://img.shields.io/badge/license-GNU-green)]
+![License](https://img.shields.io/badge/license-GNU-green)
 
 A repository for all of my Vue.js 3 notes.
 
