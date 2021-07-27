@@ -1,6 +1,4 @@
-# Introduction
-
-## What is vue.js
+# What is vue.js
 
 Vue.js is a _javascript_ _framework_ that makes building interactive and _reactive_ _web frontends_ easier. 
 
