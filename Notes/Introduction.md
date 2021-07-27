@@ -20,4 +20,13 @@ Javascript, can help us speed things up. It allows us to create a more modern we
 
 ### Why Vanilla.js might not be ideal for all kinds of apps
 
+In an ideal world, no frameowrk such as vue.js is needed but in such a case 
+
+* we would have to write all of the code and logic on our own and reinvent the wheel all over again
+* This makes our code vulnerable to unoptimization, errors and bugs. We may also face security and performance issues. 
+* Collaboration might be harder as not everyone might understand our code structure and philosophy of our code.
+
+This is why we use `Vue.js` as it gives us a clear rule set in which everyone has to work. With vue.js we don't have to focus on the small details, instead we can focus on our _core business logic_ with vue and let it do the work of updating the page, etc. 
+
+
 
