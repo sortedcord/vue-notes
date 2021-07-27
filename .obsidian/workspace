@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "Notes/Introduction/building-a-goal-app-with-js.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Notes/Introduction/building-a-goal-app-with-js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,10 +88,10 @@
   },
   "active": "358c1c2efa754ff4",
   "lastOpenFiles": [
+    "Notes/Introduction/building-a-goal-app-with-js.md",
     "README.md",
     "Assets/Pasted image 20210727170805.png",
     "Notes/Introduction/Introduction.md",
-    "Notes/Introduction/building-a-goal-app-with-js.md",
     "Notes/Introduction/what-is-vuejs.md",
     "Notes/Introduction/different-ways-of-using-vuejs.md",
     "Notes/Introduction/exploring-vue-alternatives.md",
