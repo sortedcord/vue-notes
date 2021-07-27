@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Introduction/detailed-framework-comparison.md",
+            "file": "Notes/Introduction/building-a-goal-app-with-js.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Introduction/detailed-framework-comparison.md",
+                "file": "Notes/Introduction/building-a-goal-app-with-js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,15 +96,15 @@
   },
   "active": "896974161bee397d",
   "lastOpenFiles": [
+    "Notes/Introduction/building-a-goal-app-with-js.md",
+    "Notes/Introduction/Introduction.md",
+    "README.md",
+    "Notes/Introduction/what-is-vuejs.md",
+    "Untitled.md",
     "Notes/Introduction/detailed-framework-comparison.md",
     "Notes/Introduction/different-ways-of-using-vuejs.md",
     "Notes/Introduction/exploring-vue-alternatives.md",
-    "Notes/Introduction/what-is-vuejs.md",
-    "Notes/Introduction/Introduction.md",
     "Vue (or Vue.js).md",
-    "README.md",
-    "Notes/Introduction.md",
-    "Untitled.md",
-    "Notes/Introduction/Untitled.md"
+    "Notes/Introduction.md"
   ]
 }

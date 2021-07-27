@@ -17,7 +17,8 @@ A repository for all of my Vue.js 3 notes.
         1. [Widget approach on a multi-page application](Notes/Introduction/different-ways-of-using-vuejs.md#widget-approach-on-a-multi-page-application)
         2. [(SPA) Single-page Application approach](Notes/Introduction/different-ways-of-using-vuejs.md#(SPA)-Single-page-Application-approach)
     3.  [Exploring Vue Alternatives](Notes/Introduction/exploring-vue-alternatives.md)
-		1.  
+	4. [Detailed Framework Comparison](Notes/Introduction/detailed-framework-comparison.md)
+	5. [Building a Goal App with JS](Notes/Introduction/building-a-goal-app-with-js.md)
 2. [Basics & Core Concepts - DOM Interaction with Vue](#prompt-customization)
 3. [Rendering Conditional Content & Lists](https://github.com/bhilburn/powerlevel9k/wiki/Troubleshooting)
 4. [Course Project The Monster Slayer Game](https://github.com/bhilburn/powerlevel9k/wiki/Troubleshooting)
