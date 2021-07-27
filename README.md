@@ -37,5 +37,6 @@ While looking at the individual files, you might have noticed that sometimes, th
 Here is the graph in case you are curious.
 
 ![Graph](https://github.com/sortedcord/vue-notes/blob/master/Assets/Pasted%20image%2020210727170805.png)
+
 As on 5:10 PM 27th July
 
