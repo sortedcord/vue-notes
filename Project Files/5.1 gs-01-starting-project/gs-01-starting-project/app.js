@@ -9,8 +9,8 @@ function addGoal() {
     const listItem = document.createElement('li'); // createElement is a method for creating DOM elements
     listItem.textContent = enteredValue;
     list.appendChild(listItem);
-    formInput = ''; //Resets the value of the input
-    
+    formInput.value = ''; //Resets the value of the input
+
 }
 
 formButton.addEventListener('click', addGoal); // Listen to click // 'addGoal' is not executed. It just points to it
