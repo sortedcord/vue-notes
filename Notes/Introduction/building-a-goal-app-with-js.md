@@ -15,4 +15,3 @@ Root folder
 `styles.css` is where the styling of our app is stored in.
 
 `app.js` is where the Js code will go to fetch the user input when the button is clicked, create a new list item, and that to the list of items.
-
