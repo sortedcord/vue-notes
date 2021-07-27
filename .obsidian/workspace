@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Introduction/exploring-vue-alternatives.md",
+            "file": "Notes/Introduction/Introduction.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Introduction/exploring-vue-alternatives.md",
+                "file": "Notes/Introduction/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,19 +83,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "e5bed56001caf110",
   "lastOpenFiles": [
-    "Notes/Introduction/exploring-vue-alternatives.md",
     "Notes/Introduction/Introduction.md",
-    "Untitled.md",
-    "Notes/Introduction/detailed-framework-comparison.md",
-    "Notes/Introduction.md",
-    "Notes/Introduction/what-is-vuejs.md",
     "Notes/Introduction/different-ways-of-using-vuejs.md",
+    "Notes/Introduction/detailed-framework-comparison.md",
+    "Notes/Introduction/what-is-vuejs.md",
     "README.md",
+    "Notes/Introduction/exploring-vue-alternatives.md",
+    "Untitled.md",
+    "Notes/Introduction.md",
     "Notes/Introduction/Untitled.md"
   ]
 }

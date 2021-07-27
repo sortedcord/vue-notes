@@ -1,7 +1,6 @@
 # Detailed Comparison
 
-This comparison includes comparison of-
-1. [[#Framework Backgrounds]]
+1. [Framework Backgrounds](#framework-backgrounds)
 2. [[#Comparing Philosophies]]
 	1. [[#Angular]]
 	2. [[#React or React js]]
