@@ -14,6 +14,8 @@ A repository for all of my Vue.js 3 notes.
         1. [Why use Vue.js](Notes/Introduction/what-is-vuejs.md#why-use-vue.js)
         2. [Why Vanilla.js might not be ideal for all kinds of apps](Notes/Introduction/what-is-vuejs.md#why-vanillajs-might-not-be-ideal-for-all-kinds-of-apps)
     2. [Different Ways of Using Vue.js](Notes/Introduction/different-ways-of-using-vuejs.md)
+        1. [Widget approach on a multi-page application](Notes/Introduction/different-ways-of-using-vuejs.md#widget-approach-on-a-multi-page-application)
+        2. [(SPA) Single-page Application approach](Notes/Introduction/different-ways-of-using-vuejs.md#(SPA)-Single-page-Application-approach)
 2. [Basics & Core Concepts - DOM Interaction with Vue](#prompt-customization)
 3. [Rendering Conditional Content & Lists](https://github.com/bhilburn/powerlevel9k/wiki/Troubleshooting)
 4. [Course Project The Monster Slayer Game](https://github.com/bhilburn/powerlevel9k/wiki/Troubleshooting)
