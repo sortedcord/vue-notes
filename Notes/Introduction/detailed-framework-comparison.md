@@ -7,7 +7,7 @@
 	3. [Vue](#vue-or-vuejs)
 3. [Is “More” Automatically “Better”?](#is-more-automatically-better)
 4. [Syntax](#comparing-syntax)
-5. [Comparing “Ease of Learning” / Complexity](Comparing “Ease of Learning” / Complexity)
+5. [Comparing “Ease of Learning” / Complexity](#comparing-ease-of-learning-complexity)
 
 
 ## Framework Backgrounds
