@@ -1,4 +1,4 @@
-vue.createApp({
+Vue.createApp({
     data() {
         return {
             goals: [],
@@ -8,6 +8,7 @@ vue.createApp({
     methods: {
         addGoal() {
             this.goals.push(this.enteredValue);
+            this.enteredValue = ''; // Resets the state
         }
     }
 }).mount('#app');
