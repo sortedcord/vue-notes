@@ -43,3 +43,17 @@ Now we can connect this data to the input in the HTML file by using a special #D
 ```html
 <input type="text" id="goal" v-model="enteredValue" />
 ```
+
+For the button, we want to make sure that we get what is currently stored in `enteredValue` and add that to goals. To do this we will add another key value to the data object called the `methods` key which holds an #object. In this we can define methods and functions that should be callable from the HTML Code.
+
+Inside the `methods` key we can add an `addGoal` method.
+```js
+methods: {
+	addGoal() {
+		this.goals.push(this.enteredValue);
+	}
+}
+```
+Here `this` refers to the object that we are returning. And the `push` method appends to the `goals` array.
+
+Instead of adding a click listener like we did with vanilla js, with vue we can add another directive `v-on:click="addGoal"` where click is the name of the event. 
