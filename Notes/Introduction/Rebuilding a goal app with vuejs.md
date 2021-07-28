@@ -38,4 +38,8 @@ data() {
 
 Here `goals` is an array which will hold all of the list items and `enteredValue` is string which will contain the name of the goal that the user enters. 
 
-Now we can connect the 
+Now we can connect this data to the input in the HTML file by using a special #Directives called `v-model`. The value will be the same as that of the property: `enteredValue` like so:
+
+```html
+<input type="text" id="goal" v-model="enteredValue" />
+```
