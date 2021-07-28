@@ -11,4 +11,6 @@
 3.  [Exploring Vue Alternatives](exploring-vue-alternatives.md)
 4.  [Detailed Framework Comparison](detailed-framework-comparison.md)
 5. [Building a Goal App with JS](building-a-goal-app-with-js.md)
+6. [Rebuilding a Goal App with vue.js](Rebuilding%20a%20goal%20app%20with%20vuejs.md)
+7. [Setting Up Developer Environment](Setting%20Up%20Development%20Environment.md)
 

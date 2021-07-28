@@ -29,6 +29,33 @@ A repository for all of my Vue.js 3 notes.
 9. [Dividing Deeper into Components](https://github.com/bhilburn/powerlevel9k/wiki/Troubleshooting)
 10. [Course Project: The Learning Resources App](https://github.com/bhilburn/powerlevel9k/wiki/Troubleshooting)
 
+## Course Outline
+
+1.  ### Basics
+	1. Core #Syntax
+	2. #Templates
+	3. #Directives
+	4. Data
+	5. #Methods
+	6. Computed Properties
+	7. #Watchers
+
+2.  ### Intermediate
+	1. #Components
+	2. Component Communication
+	3. Behind the Scenes
+	4. Forms
+	5. #Http
+	6. #routing 
+	7. #Animations
+
+3. ### Advanced
+	1. #Vuex
+	2. #Authentication
+	3. Deployment and Optimizations
+	4. #Composition-API
+	5. Re-using Code
+
 
 ## How to view these notes
 
@@ -36,7 +63,7 @@ While looking at the individual files, you might have noticed that sometimes, th
 
 Here is the graph in case you are curious.
 
-![Graph](https://github.com/sortedcord/vue-notes/blob/master/Assets/Pasted%20image%2020210727212412.png)
+![Graph](https://github.com/sortedcord/vue-notes/blob/master/Assets/Pasted%20image%20210728115921.png)
 
 
 As on 9:25 PM 27th July
