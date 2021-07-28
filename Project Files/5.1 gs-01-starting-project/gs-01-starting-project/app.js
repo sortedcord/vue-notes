@@ -1,18 +1,17 @@
 Vue.createApp({
-    data() {
-        return {
-            goals: [],
-            enteredValue: ''
-        };
+  data() {
+    return {
+      goals: [],
+      enteredValue: "",
+    };
+  },
+  methods: {
+    addGoal() {
+      this.goals.push(this.enteredValue);
+      this.enteredValue = ""; // Resets the state
     },
-    methods: {
-        addGoal() {
-            this.goals.push(this.enteredValue);
-            this.enteredValue = ''; // Resets the state
-        }
-    }
-}).mount('#app');
-
+  },
+}).mount("#app");
 
 // ======================== USING VANILLA JS ==================================
 // const formButton = document.querySelector('button'); // Selects the button
