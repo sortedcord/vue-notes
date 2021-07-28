@@ -1,7 +1,14 @@
+vue.createApp({
+    data() {
+        return {
+            goals: [],
+            enteredValue: ''
+        };
+    }
+});
 
 
-
-// ======================== USING 
+// ======================== USING VANILLA JS ==================================
 // const formButton = document.querySelector('button'); // Selects the button
 // const formInput = document.querySelector('input');
 // const list = document.querySelector('ul');
