@@ -38,7 +38,7 @@ data() {
 
 Here `goals` is an array which will hold all of the list items and `enteredValue` is string which will contain the name of the goal that the user enters. 
 
-Now we can connect this data to the input in the HTML file by using a special #Directives called `v-model`. The value will be the same as that of the property: `enteredValue` like so:
+Now we can connect this data to the input in the HTML file by using a special #Directive called `v-model`. The value will be the same as that of the property: `enteredValue` like so:
 
 ```html
 <input type="text" id="goal" v-model="enteredValue" />
@@ -56,4 +56,7 @@ methods: {
 ```
 Here `this` refers to the object that we are returning. And the `push` method appends to the `goals` array.
 
-Instead of adding a click listener like we did with vanilla js, with vue we can add another directive `v-on:click="addGoal"` where click is the name of the event. 
+Instead of adding a click listener like we did with vanilla js, with vue we can add another #directive `v-on:click=""` where click is the name of the event. As the value, we specify the name of the method which should be triggered on clicking the button.
+```html
+<button v-on:click="addGoal"> Add Goal </button>
+```

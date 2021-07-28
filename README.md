@@ -34,7 +34,7 @@ A repository for all of my Vue.js 3 notes.
 1.  ### Basics
 	1. Core #Syntax
 	2. #Templates
-	3. #Directives
+	3. #Directive
 	4. Data
 	5. #Methods
 	6. Computed Properties
