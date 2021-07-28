@@ -25,3 +25,4 @@ Vue.createApp({
 }).mount('#app');
 ```
 
+`CreateApp` takes an #object where we configure the vue app such as setting up what kind of data will be used in our vue app. The data we reu

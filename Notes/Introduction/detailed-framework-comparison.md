@@ -28,13 +28,13 @@ Let’s start with the general philosophy of each framework (side-note: I’ll s
 
 Why?
 
-Because Angular out of the box **includes support for a lot of things**. It helps you (= the developer) with controlling the UI, reacting to user input, validating user input in forms, routing, state management sending Ajax Http requests, providing offline support & PWA capabilities, testing, building your application, managing multiple applications and connecting them and much, much more!
+Because Angular out of the box **includes support for a lot of things**. It helps you (= the developer) with controlling the UI, reacting to user input, validating user input in forms, #routing, state management sending #Ajax #Http requests, providing offline support & #PWA capabilities, testing, building your application, managing multiple applications and connecting them and much, much more!
 
-All frameworks have the goal of making it easier for you, as a developer, to build reactive, complex user interfaces. But Angular gives you the full set of tools for that. It doesn’t stop after DOM manipulation support - it adds the above-mentioned features to help you with any aspect you could require in apps you’re working on.
+All frameworks have the goal of making it easier for you, as a developer, to build reactive, complex user interfaces. But Angular gives you the full set of tools for that. It doesn’t stop after #DOM manipulation support - it adds the above-mentioned features to help you with any aspect you could require in apps you’re working on.
 
-In addition, there’s an [official CLI](https://cli.angular.io/) which helps you with creating and managing Angular projects, with keeping them up-to-date, with adding dependencies and even with deployment!
+In addition, there’s an [official CLI](https://cli.angular.io/) which helps you with creating and managing Angular projects, with keeping them up-to-date, with adding #dependencies and even with deployment!
 
-In its core, Angular is all about building re-usable user interface components which you then control with Angular and which you can combine with other components to build an entire user interface from those Angular-controlled components.
+In its core, Angular is all about building re-usable user interface #components which you then control with Angular and which you can combine with other components to build an entire user interface from those Angular-controlled components.
 
 ![Angular includes UI capabilities, state management, routing, form handling, an Http client and much more!](https://res.cloudinary.com/academind-gmbh/image/upload/f_auto,q_auto/c_limit,dpr_1.0,g_center,w_1000/v1/academind.com/content/tutorials/angular-vs-react-vs-vue-my-thoughts/angular-features)
 
@@ -66,19 +66,19 @@ The obvious question now is: Isn’t Angular much better than the other framewor
 
 **The answer is: No, this is not automatically better. It’s also not worse - it simply depends on the project you’re working on and on your personal preferences.**
 
-There are some features like state management and routing which you’ll need in almost every project you’ll be working on - no matter how big or small that project is.
+There are some features like #state-management and routing which you’ll need in almost every project you’ll be working on - no matter how big or small that project is.
 
-Angular and Vue have full built-in support to make that easier for you. React only has some state management support built-in (not ideal for high-frequency changes) and has **no** built-in routing support.
+Angular and Vue have full built-in support to make that easier for you. React only has some #state-management support built-in (not ideal for high-frequency changes) and has **no** built-in routing support.
 
 So why wouldn’t Angular (or Vue) be better than React?
 
-Because you could also argue that the simplicity of React and its strong focus on components and UI rendering is a big strength. Where Angular needs to connect a lot of things and ensure that they work together smoothly, React doesn’t need to do that.
+Because you could also argue that the simplicity of React and its strong focus on #components and UI rendering is a big strength. Where Angular needs to connect a lot of things and ensure that they work together smoothly, React doesn’t need to do that.
 
 React does one thing and it does that thing really, really well!
 
 For the other “tools”, which you’ll eventually also need, you got the very active React community. This community developed solutions (i.e. extra packages you can add to your project) like the [React router](https://reacttraining.com/react-router/web), [Redux](https://redux.js.org/) or [Formik](https://github.com/jaredpalmer/formik).
 
-So you could argue that the React team focuses on giving you the best possible UI-rendering library whereas the community focuses on individual projects that add on to that library. Not a bad approach.
+So you could argue that the React team focuses on giving you the best possible UI-rendering #library whereas the community focuses on individual projects that add on to that library. Not a bad approach.
 
 Of course, that does also not mean that Angular’s way of doing it is bad. Neither is Vue’s.
 
@@ -100,7 +100,7 @@ Because it matters a lot! If you don’t like the way you have to write code wit
 
 ## Angular
 
-Angular projects use [TypeScript](https://acad.link/typescript), which is a superset (i.e. an addition) to JavaScript. TypeScript doesn’t run in the browser but Angular projects include tools that will compile the TypeScript code down to browser-compatible JavaScript code under the hood.
+Angular projects use [TypeScript](https://acad.link/typescript), which is a superset (i.e. an addition) to JavaScript. TypeScript doesn’t run in the browser but Angular projects include tools that will compile the TypeScript code down to browser-compatible #JavaScript code under the hood.
 
 A typical Angular code snippet would look like this:
 
@@ -131,7 +131,7 @@ This is a fairly trivial component (`UserListComponent`) which uses property bin
 
 As mentioned earlier, I’ll not explain Angular’s syntax in-depth here - if you want to learn all about Angular, my [Angular - The Complete Guide course](https://acad.link/angular) is the right choice, there, you’ll learn it from the ground up.
 
-You can see, that Angular uses a TypeScript feature called “Decorators” (`@Component`) to attach extra data to normal classes (`UserListComponent`). You write code like this and Angular, behind the scenes, takes care about manipulating and “connecting” the real DOM.
+You can see, that Angular uses a #TypeScript feature called #Decorators (`@Component`) to attach extra data to normal classes (`UserListComponent`). You write code like this and Angular, behind the scenes, takes care about manipulating and “connecting” the real #DOM.
 
 So you, as a developer, never have to write any code that directly creates or removes elements to/ from the DOM. You instead create Angular components, with the syntax shown above, to let Angular do the heavy lifting.
 
@@ -161,11 +161,11 @@ export function UserList(props) {
 }
 ```
 
-React typically uses JavaScript (though you also can use it with TypeScript - for example in my [Ionic + React](https://acad.link/ionic-react) course) and it uses a special JavaScript “feature” which is called “JSX”.
+React typically uses JavaScript (though you also can use it with TypeScript - for example in my [Ionic + React](https://acad.link/ionic-react) course) and it uses a special JavaScript “feature” which is called #JSX.
 
 JSX isn’t really part of the JavaScript language, React projects just are set up such that this “HTML in JavaScript” syntax is supported during development. Just like with TypeScript in Angular projects, JSX gets compiled to regular, browser-friendly JavaScript code behind the scenes once you build your project.
 
-Just as in the Angular snippet, we built a `UserList` component here - however without decorators but instead as a simple JavaScript function which uses a concept called `props` to receive input and invoke events (`props.onSelectUser()`).
+Just as in the Angular snippet, we built a `UserList` component here - however without #decorators but instead as a simple JavaScript function which uses a concept called `props` to receive input and invoke events (`props.onSelectUser()`).
 
 JSX is something you can love or hate - it’s definitely not regular JavaScript. I initially didn’t really like it but over time, I’ve changed my opinion. Mixing HTML and JavaScript can be confusing and for some developers, it can also be almost a sin.
 
@@ -405,4 +405,4 @@ React.js follows **no strict release schedule** but we see new versions being re
 
 ## Vue
 
-Vue also is under active developent. There have been some new features that were introduced since the initial release of Vue 2 but at the moment, the Vue team is working on the next big major version: [Vue 3](https://academind.com/learn/vue-js/vue-3-and-composition-api/). Vue 3 will partly be backwards-compatible and it will generally follow the same philosophy as Vue 2. But it will also add some new features to Vue. **At the moment, it’s hard to tell when Vue 3 will be released though**.
+Vue also is under active developent. There have been some new features that were introduced since the initial release of Vue 2 but at the moment, the Vue team is working on the next big major version: [Vue 3](https://academind.com/learn/vue-js/vue-3-and-composition-api/). Vue 3 will partly be backwards-compatible and it will generally follow the same philosophy as Vue 2. But it will also add some new features to Vue. 
