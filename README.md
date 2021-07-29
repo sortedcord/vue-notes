@@ -63,7 +63,9 @@ While looking at the individual files, you might have noticed that sometimes, th
 
 Here is the graph in case you are curious.
 
-![Graph](https://github.com/sortedcord/vue-notes/blob/master/Assets/Pasted%20image%2020210728115921.png)
+![Graph](https://github.com/sortedcord/vue-notes/blob/master/Assets/Pasted%20image%2020210729111810.png)
+
+![Pasted image 20210729111810.png](Pasted%20image%2020210729111810.png)
 
 
 As on 12:00 PM 28th July
