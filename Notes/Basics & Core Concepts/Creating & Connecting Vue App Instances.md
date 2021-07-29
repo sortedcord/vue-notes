@@ -35,3 +35,14 @@ And now we have to let vue know which part of the HTML section should be control
  We can now use Vue features to manipulate this section by passing an #object to create app. This can be used to configure the various options of this app.
  
  One option that we can set is the `data` option and it requires a function as a value. This data function returns an #object.
+ 
+ ```js
+ data() {
+ 	return {
+	};
+ }
+ ```
+ 
+ In this returned object we can now set up any key value pairs with any key of your choice.
+ 
+ Anything that's part of the returned object can now be used in the vue controlled HTML part.
