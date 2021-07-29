@@ -3,9 +3,10 @@
 In this module we are going to explore Vue's core concepts. 
 
 ## Index
+1. [Creating & Connecting Vue App Instances](Creating%20&%20Connecting%20Vue%20App%20Instances.md)
 
 
 ## Module Outline
-* Templates
+* #Templates
 * Outputting Dynamic Content
 * Reacting User Input
