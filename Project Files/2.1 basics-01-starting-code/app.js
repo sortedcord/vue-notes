@@ -1,5 +1,7 @@
 const app = Vue.createApp({
-    return: function() {
-
-    }
+  data() {
+    return {};
+  },
 });
+
+app.mount("#user-goal");
