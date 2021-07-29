@@ -24,5 +24,5 @@ This is a basic application, that takes the input from the user and displays it 
 * First the user enters some data in the text field and clicks the button
 * Js listens to the click event, takes the data entered in the text field and appends to the list.
 
-Next we will try to [[Rebuilding a goal app with vuejs]] and see why Vue.js can be more convinient a better aproach than vanilla.js.
+Next we will try to [Rebuilding a goal app with vuejs](Rebuilding%20a%20goal%20app%20with%20vuejs.md) and see why Vue.js can be more convinient a better aproach than vanilla.js.
 

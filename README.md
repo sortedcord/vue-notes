@@ -19,7 +19,7 @@ A repository for all of my Vue.js 3 notes.
     3.  Exploring Vue Alternatives
 	4. Detailed Framework Comparison
 	5. Building a Goal App with JS
-2. [Basics & Core Concepts - DOM Interaction with Vue](#prompt-customization)
+2. [Basics & Core Concepts](Basics%20&%20Core%20Concepts/Basics%20&%20Core%20Concepts.md)
 3. [Rendering Conditional Content & Lists](https://github.com/bhilburn/powerlevel9k/wiki/Troubleshooting)
 4. [Course Project The Monster Slayer Game](https://github.com/bhilburn/powerlevel9k/wiki/Troubleshooting)
 5. [Vue Behind the Scenes](https://github.com/bhilburn/powerlevel9k/wiki/Troubleshooting)
