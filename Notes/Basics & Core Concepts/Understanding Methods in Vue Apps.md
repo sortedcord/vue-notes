@@ -4,3 +4,9 @@ Another option similiar to `data` for our vue app would be the `methods` option.
 
 We pass a javascript #object in methods instead of a function as seen in `data`. `methods` takes an object which would be full of functions. And these functions can be defined as regular javascript functions.
 
+```js
+methods: {
+	function1 () {
+	}
+}
+```
