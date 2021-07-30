@@ -11,7 +11,7 @@ const app = Vue.createApp({
       if (randomNumber < 0.5) {
         return "Learn Vue";
       } else {
-        return "You are stupid";
+        return "You are stupid"; 
       }
     },
   },
