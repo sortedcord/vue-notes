@@ -5,5 +5,8 @@ const app = Vue.createApp({
       courseLink: "https://google.com",
     };
   },
+  methods: {
+    
+  }
 });
 app.mount("#user-goal");
