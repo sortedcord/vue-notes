@@ -5,7 +5,10 @@ In this lecture we are goin to learn about how to access the data stored inside 
 ```js
 const app = Vue.createApp({
 data() {
-	x_variable: 'Some data stored here'
+	return {
+		x_variable: 'Some data stored here'
+	}
+	
 };
 },
 methods: {
