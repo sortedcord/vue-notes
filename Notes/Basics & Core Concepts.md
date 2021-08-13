@@ -13,6 +13,9 @@ In this module we are going to explore Vue's core concepts.
 - [Understanding Methods in Vue Apps](#understanding-methods-in-vue-apps)
 - [Working with Data inside of a Vue App](#working-with-data-inside-of-a-vue-app)
 - [Ouputting Raw HTML code with v-html](#ouputting-raw-html-code-with-v-html)
+- [Understanding Event Binding](#understanding-event-binding)
+		- [Project Files](#project-files)
+	- [Functionality](#functionality)
 
 ## Module Outline
 * #Templates
@@ -125,6 +128,26 @@ Here, if we try to use `x_variable`, it would not work as it is not defined in t
 # Ouputting Raw HTML code with v-html
 
 To output HTML structure we use the `v-html` #directive which tells vue that the content should be interpreted as HTML code and not just text.
+
+# Understanding Event Binding
+
+### Project Files
+
+[Here](../Project%20Files/2.../Project%20Files/2.10%20Understanding%20Event%20Binding/) you can find the project files for this module.
+
+```
+.
+└── 2.10 Understand Event Binding/
+    ├── app.js
+    ├── index.html
+    └── styles.css
+```
+
+We would now learn how to react to user input/ events, making pages dynamic. In project's [index.html](../Project%20Files/2.10%20Understanding%20Event%20Binding/index.html) file there is a section with a different ID as well as 2 buttons- add or remove. We also have a paragraph where a counter is outputted (managed in the vue app.)
+
+## Functionality
+
+When the `add` button is clicked, a value of 1 is added to the counter. When the `reduced` button is clicked, 1 is removed from the counter.
 
 
 
