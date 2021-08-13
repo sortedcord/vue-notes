@@ -51,3 +51,4 @@ A repository for all of my Vue.js 3 notes.
 ## Resources
 
 - [Vue.js 3 Official Documentation](https://v3.vuejs.org/guide/introduction.html)
+- [Course Link](https://www.udemy.com/course/vuejs-2-the-complete-guide/)
