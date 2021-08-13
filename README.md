@@ -9,25 +9,16 @@ A repository for all of my Vue.js 3 notes.
 
 ### Table of Contents
 
-1. [Introduction](Notes/Introduction/Introduction.md)
-    1. What is vue.js
-        1. Why use Vue.js
-        2. Why Vanilla.js might not be ideal for all kinds of apps
-    2. Different Ways of Using Vue.js
-        1. Widget approach on a multi-page application
-        2. (SPA) Single-page Application approach
-    3.  Exploring Vue Alternatives
-	4. Detailed Framework Comparison
-	5. Building a Goal App with JS
-2. [Basics & Core Concepts](Basics%20&%20Core%20Concepts/Basics%20&%20Core%20Concepts.md)
-3. [Rendering Conditional Content & Lists](https://github.com/bhilburn/powerlevel9k/wiki/Troubleshooting)
-4. [Course Project The Monster Slayer Game](https://github.com/bhilburn/powerlevel9k/wiki/Troubleshooting)
-5. [Vue Behind the Scenes](https://github.com/bhilburn/powerlevel9k/wiki/Troubleshooting)
-6. [Introduction to Components](https://github.com/bhilburn/powerlevel9k/wiki/Troubleshooting)
-7. [Moving to a Better Development Setup & Workflow with the Vue CLI](https://github.com/bhilburn/powerlevel9k/wiki/Troubleshooting)
-8. [Component Communication](https://github.com/bhilburn/powerlevel9k/wiki/Troubleshooting)
-9. [Dividing Deeper into Components](https://github.com/bhilburn/powerlevel9k/wiki/Troubleshooting)
-10. [Course Project: The Learning Resources App](https://github.com/bhilburn/powerlevel9k/wiki/Troubleshooting)
+1. [Introduction](Notes/Getting%20Started.md)
+2. [Basics & Core Concepts](Notes/Basics%20&%20Core%20Concepts.md)
+3. [Rendering Conditional Content & Lists]()
+4. [Course Project The Monster Slayer Game]()
+5. [Vue Behind the Scenes]()
+6. [Introduction to Components]()
+7. [Moving to a Better Development Setup & Workflow with the Vue CLI]()
+8. [Component Communication]()
+9. [Dividing Deeper into Components]()
+10. [Course Project: The Learning Resources App]()
 
 ## Course Outline
 
@@ -55,16 +46,3 @@ A repository for all of my Vue.js 3 notes.
 	3. Deployment and Optimizations
 	4. #Composition-API
 	5. Re-using Code
-
-
-## How to view these notes
-
-While looking at the individual files, you might have noticed that sometimes, the images won't look right, there will be different tags, etc. That is because I use obsidian.md which is great tool for taking down notes. If you want to see these notes properly, then I suggest using it. I am fully aware that it is built in electron. But worry not, it is very optimized and snappy.
-
-Here is the graph in case you are curious.
-
-![Graph](https://github.com/sortedcord/vue-notes/blob/master/Assets/Pasted%20image%2020210729115454.png)
-
-
-As on 11:56 AM 29th July
-
