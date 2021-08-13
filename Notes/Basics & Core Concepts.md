@@ -1,13 +1,13 @@
-In this module we are going to explore Vue's core concepts. 
+In this module we are going to explore Vue's core concepts.
 
 # Table of Contents
 
 - [Table of Contents](#table-of-contents)
-  - [Module Outline](#module-outline)
+	- [Module Outline](#module-outline)
 - [Creating and Connecting Vue App Instances](#creating-and-connecting-vue-app-instances)
-  - [Objective](#objective)
-      - [Creating a Vue App](#creating-a-vue-app)
-      - [Establishing Connection](#establishing-connection)
+	- [Objective](#objective)
+			- [Creating a Vue App](#creating-a-vue-app)
+			- [Establishing Connection](#establishing-connection)
 - [Interpolation and Data Binding](#interpolation-and-data-binding)
 - [Binding Attributes with the v-bind Directive](#binding-attributes-with-the-v-bind-directive)
 - [Understanding Methods in Vue Apps](#understanding-methods-in-vue-apps)
@@ -22,7 +22,7 @@ In this module we are going to explore Vue's core concepts.
 # Creating and Connecting Vue App Instances
 
  [Project Files for this Lecture](../../Project%20Files/2.1%20basics-01-starting-code/)
- 
+
  ```
 Root folder
 |
@@ -30,45 +30,45 @@ Root folder
 |-index.html
 |-styles.css
 ```
- 
+
  ## Objective
- 
+
  The objective is to output the desired course goal inside of the paragraph tag using vue which could potentially be changed dynamically.
- 
+
  #### Creating a Vue App
- 
+
  First step would be to create a vue app. But now we can store it inside of a constant like so-
- 
+
  ```js
- const app = Vue.createApp();
+const app = Vue.createApp();
  ```
- 
+
 #### Establishing Connection
 
 And now we have to let vue know which part of the HTML section should be controlled by it. Since the section `user-goal` will be manipulated, we will use the `mount` #Methods on the `app` #object.
- 
- `mount` method required a string which holds a _CSS Selector_ which uniquely identifies the element in our DOM. 
- 
+
+ `mount` method required a string which holds a _CSS Selector_ which uniquely identifies the element in our DOM.
+
 ```js
 app.mount('#user-goal');
 ```
- 
+
 We can now use Vue features to manipulate this section by passing an #object to create app. This can be used to configure the various options of this app.
 
 One option that we can set is the `data` option and it requires a function as a value. This data function returns an #object.
 
 ```js
 data() {
-return {
-};
+	return {
+	};
 }
 ```
- 
+
 In this returned object we can now set up any key value pairs with any key of your choice. Anything that's part of the returned object can now be used in the vue controlled HTML part.
 
 # Interpolation and Data Binding
 
-To output data, vue will scan the HTML code and detect a certain #Syntax  which it supports. The syntax used for this is `{{ }}`. 
+To output data, vue will scan the HTML code and detect a certain #Syntax  which it supports. The syntax used for this is `{{ }}`.
 
 Between those braces, you can reference your returned data object properties. This syntax is called #interpolation. It means that in this braces you can reference properties of the returned object.
 
@@ -85,7 +85,7 @@ The directive here is `v-bind` which is a reserved name detected and understood 
 ```html
 <a v-bind:href="{{ someLink }}">Some Text</a>
 ```
-This directive is the attrubution alternative to #interpolation #Syntax. 
+This directive is the attrubution alternative to #interpolation #Syntax.
 
 # Understanding Methods in Vue Apps
 
@@ -110,7 +110,7 @@ data() {
 	return {
 		x_variable: 'Some data stored here'
 	}
-	
+
 };
 },
 methods: {
@@ -126,10 +126,5 @@ Here, if we try to use `x_variable`, it would not work as it is not defined in t
 
 To output HTML structure we use the `v-html` #directive which tells vue that the content should be interpreted as HTML code and not just text.
 
-| HTML                                       | Vue.js                                                                                                                 |
-|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| ```html <p v-html> {{ output() }} </p> ``` | ```js data() {   return {     code: '<h2>Big Text</h2>'   } },  methods: {   output() {     return this.code   } } ``` |
-
-Here, the `p` tag will display in bigger font.
 
 

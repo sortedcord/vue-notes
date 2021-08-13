@@ -4,6 +4,7 @@
 
 <!-- Shields -->
 ![License](https://img.shields.io/badge/license-GNU-green)
+![Vuejs](https://shields.io/badge/VUEJS-3.x-blue?logo=vuedotjs&style=for-the-badge)
 
 A repository for all of my Vue.js 3 notes.
 
@@ -46,3 +47,7 @@ A repository for all of my Vue.js 3 notes.
 	3. Deployment and Optimizations
 	4. #Composition-API
 	5. Re-using Code
+
+## Resources
+
+- [Vue.js 3 Official Documentation](https://v3.vuejs.org/guide/introduction.html)
