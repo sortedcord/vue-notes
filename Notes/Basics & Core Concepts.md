@@ -16,6 +16,7 @@ In this module we are going to explore Vue's core concepts.
 - [Understanding Event Binding](#understanding-event-binding)
 		- [Project Files](#project-files)
 	- [Functionality](#functionality)
+- [Events and Methods](#events-and-methods)
 
 ## Module Outline
 * #Templates
@@ -26,12 +27,12 @@ In this module we are going to explore Vue's core concepts.
 
  [Project Files for this Lecture](../../Project%20Files/2.1%20basics-01-starting-code/)
 
- ```
-Root folder
-|
-|-app.js
-|-index.html
-|-styles.css
+```
+.
+└── 2.1 Basics 01 Starting Code/
+    ├── app.js
+    ├── index.html
+    └── styles.css
 ```
 
  ## Objective
@@ -149,5 +150,14 @@ We would now learn how to react to user input/ events, making pages dynamic. In 
 
 When the `add` button is clicked, a value of 1 is added to the counter. When the `reduced` button is clicked, 1 is removed from the counter.
 
+In order to do this we can use the `v-bind` directive which is helpful for setting up the value of an attribute, but we can also use the `v-on` directive for event listeners as we want to react to a certain event. In this case our event is a click.
 
+```js
+<button v-on:click="counter++"> Add </button>
+```
 
+Other events you can listen include but are not limited to:
+- mouseenter
+- mouseleave
+  
+# Events and Methods
