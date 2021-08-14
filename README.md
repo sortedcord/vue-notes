@@ -10,8 +10,8 @@ A repository for all of my Vue.js 3 notes.
 
 ### Table of Contents
 
-1. [Introduction](Notes/Getting%20Started.md)
-2. [Basics & Core Concepts](Notes/Basics%20&%20Core%20Concepts.md)
+1. [Introduction](Notes/Getting%20Started)
+2. [Basics & Core Concepts](Notes/Basics%20&%20Core%20Concepts)
 3. [Rendering Conditional Content & Lists]()
 4. [Course Project The Monster Slayer Game]()
 5. [Vue Behind the Scenes]()
