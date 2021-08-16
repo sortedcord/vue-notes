@@ -161,3 +161,19 @@ Other events you can listen include but are not limited to:
 - mouseleave
   
 # Events and Methods
+
+It is a bad practice to put login in your HTML code. Logic should go into the js code. So we would require a function. So we would require a methods key.
+
+```js
+methods: {
+	add() {
+		this.counter++;
+	}
+}
+```
+
+This method can be directly called in the vue controlled app like so:
+
+```html
+<button v-on:click="add()">Add</button>
+```
