@@ -17,6 +17,8 @@ In this module we are going to explore Vue's core concepts.
 		- [Project Files](#project-files)
 	- [Functionality](#functionality)
 - [Events and Methods](#events-and-methods)
+	- [Working with Event Arguments](#working-with-event-arguments)
+- [Using Native Event Object](#using-native-event-object)
 
 ## Module Outline
 * #Templates
@@ -177,3 +179,21 @@ This method can be directly called in the vue controlled app like so:
 ```html
 <button v-on:click="add()">Add</button>
 ```
+
+## Working with Event Arguments
+
+Method arguments work in the same way as normal vanilla javascript event arguments.
+
+```js
+methods: {
+	add(num) {
+		this.counter = this.counter + num;
+	}
+}
+```
+```html
+<button v-on:click="add(7)">Add</button>
+```
+
+# Using Native Event Object
+
