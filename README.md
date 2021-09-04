@@ -5,15 +5,10 @@
 ![Vuejs](https://shields.io/badge/VUEJS-3.x-blue?logo=vuedotjs&style=for-the-badge)
 ![Commit Activity](https://img.shields.io/github/last-commit/sortedcord/vue-notes?style=for-the-badge)
 
-
-
-
 # Vue.js Notes
-
 
 #### **Vue - The Complete Guide (w/ Router, Vuex, Composition API)** <br> Created by [Maximilian Schwarzmüller](https://www.udemy.com/user/maximilian-schwarzmuller/)
 
-<br>
 
 ### Table of Contents
 
@@ -32,27 +27,27 @@
 
 1.  ### Basics
 	1. Core #Syntax
-	2. #Templates
-	3. #Directive
+	2. Templates
+	3. Directive
 	4. Data
-	5. #Methods
+	5. Methods
 	6. Computed Properties
-	7. #Watchers
+	7. Watchers
 
 2.  ### Intermediate
-	1. #Components
+	1. Components
 	2. Component Communication
 	3. Behind the Scenes
 	4. Forms
-	5. #Http
-	6. #routing 
-	7. #Animations
+	5. Http
+	6. routing 
+	7. Animations
 
 3. ### Advanced
-	1. #Vuex
-	2. #Authentication
+	1. Vuex
+	2. Authentication
 	3. Deployment and Optimizations
-	4. #Composition-API
+	4. Composition-API
 	5. Re-using Code
 
 ## Resources
