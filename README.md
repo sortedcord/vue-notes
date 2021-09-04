@@ -1,4 +1,4 @@
-<img align="right" src="./assets/vuelogo.png" height="100px" style="padding-left: 20px"/>
+<img align="right" src="./Assets/vuelogo.png" height="100px" style="padding-left: 20px"/>
 
 <!-- Shields -->
 ![License](https://img.shields.io/github/license/sortedcord/vue-notes?style=for-the-badge)
