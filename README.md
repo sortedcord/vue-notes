@@ -5,7 +5,7 @@
 ![Vuejs](https://shields.io/badge/VUEJS-3.x-blue?logo=vuedotjs&style=for-the-badge)
 ![Commit Activity](https://img.shields.io/github/last-commit/sortedcord/vue-notes?style=for-the-badge)
 
-<br>
+
 
 
 # Vue.js Notes
