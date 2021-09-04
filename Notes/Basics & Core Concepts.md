@@ -19,6 +19,7 @@ In this module we are going to explore Vue's core concepts.
 - [Events and Methods](#events-and-methods)
 	- [Working with Event Arguments](#working-with-event-arguments)
 - [Using Native Event Object](#using-native-event-object)
+- [Exploring Event Modifiers](#exploring-event-modifiers)
 
 ## Module Outline
 * #Templates
@@ -196,4 +197,19 @@ methods: {
 ```
 
 # Using Native Event Object
+
+Another directive that we should know about is `v-on:input=""`. And this only available on input elements. With this we can execute some vue code whenever there is some input (for ever keystroke).
+
+> ### Note
+> The order of methods does not matter similar to the order of methods.
+
+<br>
+
+Here is an example showcasing how the input directive works
+
+![](../Assets/gif/voninput.gif)
+
+# Exploring Event Modifiers
+
+
 
