@@ -1,10 +1,15 @@
-![Vue](https://i.pinimg.com/originals/60/17/da/6017da3ed8f203fe979b16dae1ad2259.png)
+<img align="right" src="./assets/vuelogo.png" height="100px" style="padding-left: 20px"/>
+
+<!-- Shields -->
+![License](https://img.shields.io/github/license/sortedcord/vue-notes?style=for-the-badge)
+![Vuejs](https://shields.io/badge/VUEJS-3.x-blue?logo=vuedotjs&style=for-the-badge)
+![Commit Activity](https://img.shields.io/github/last-commit/sortedcord/vue-notes?style=for-the-badge)
+
+<br>
+
 
 # Vue.js Notes
 
-<!-- Shields -->
-![License](https://img.shields.io/badge/license-GNU-green?style=flat)
-![Vuejs](https://shields.io/badge/VUEJS-3.x-blue?logo=vuedotjs&style=flat)
 
 A repository for all of my Vue.js 3 notes.
 
