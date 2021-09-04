@@ -11,7 +11,9 @@
 # Vue.js Notes
 
 
-A repository for all of my Vue.js 3 notes.
+#### **Vue - The Complete Guide (w/ Router, Vuex, Composition API)** <br> Created by [Maximilian Schwarzmüller](https://www.udemy.com/user/maximilian-schwarzmuller/)
+
+<br>
 
 ### Table of Contents
 
