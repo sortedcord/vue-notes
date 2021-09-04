@@ -3,8 +3,8 @@
 # Vue.js Notes
 
 <!-- Shields -->
-![License](https://img.shields.io/badge/license-GNU-green)
-![Vuejs](https://shields.io/badge/VUEJS-3.x-blue?logo=vuedotjs&style=for-the-badge)
+![License](https://img.shields.io/badge/license-GNU-green?style=flat)
+![Vuejs](https://shields.io/badge/VUEJS-3.x-blue?logo=vuedotjs&style=flat)
 
 A repository for all of my Vue.js 3 notes.
 
