@@ -50,7 +50,12 @@
 	4. Composition-API
 	5. Re-using Code
 
-## Resources
+## 📖 Course Projects
+
+- [**Demonslayer**](https://github.com/sortedcord/vue-monsterslayer) : A text-based RPG game made with vue without components.
+
+
+## 📚 Resources & References
 
 - [Vue.js 3 Official Documentation](https://v3.vuejs.org/guide/introduction.html)
 - [Course Link](https://www.udemy.com/course/vuejs-2-the-complete-guide/)
