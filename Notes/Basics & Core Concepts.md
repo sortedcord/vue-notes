@@ -22,6 +22,7 @@ In this module we are going to explore Vue's core concepts.
 - [Exploring Event Modifiers](#exploring-event-modifiers)
 		- [Other Event Modifiers](#other-event-modifiers)
 - [Locking Content with `v-once`](#locking-content-with-v-once)
+- [Two way binding](#two-way-binding)
 
 ## Module Outline
 * #Templates
@@ -265,3 +266,6 @@ This is rarely needed but can be useful. If you have some data that changes and 
 ```html
 <p v-once>{{ constant_variable }}
 ```
+# Two way binding
+
+`v-model` directive takes the variable you want it to manage. That variable is then managed by vue such that its updated on the input event. And the variable's value is then sent back to that input. This is called two-way binding.
