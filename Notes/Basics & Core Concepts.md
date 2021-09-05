@@ -270,7 +270,7 @@ You can also listen to `ctrl` or `shift`, etx. All keybaord keys are possible he
 
 This is rarely needed but can be useful. If you have some data that changes and you want to preserver its initial state and not reflect any other changes, you can use the `v-once` directive.
 
-```html
+```xml
 <p v-once>{{ constant_variable }}</p>
 ```
 
@@ -298,8 +298,8 @@ computed: {
 ```
 This is an example of a computed property. Vue will be aware of its dependencies and execute it whenever its dependency is updated.
 
-```html
+```xml
 <p> {{ fullname }} </p>
 ```
 
-**NOTE**: Do note that I am using `fullname` instead of `fullname()` because like I have mentioned earlier we have to treat these computed properties as data properties. And this is why we should also name our computed properties similar to data properties. 
+**NOTE**: Do note that I am using `fullname` instead of `fullname()` because like I have mentioned earlier we have to treat these computed properties as data properties. And this is why we should also name our computed properties similar to data properties.
