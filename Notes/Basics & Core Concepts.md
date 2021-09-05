@@ -21,6 +21,7 @@ In this module we are going to explore Vue's core concepts.
 - [Using Native Event Object](#using-native-event-object)
 - [Exploring Event Modifiers](#exploring-event-modifiers)
 		- [Other Event Modifiers](#other-event-modifiers)
+- [Locking Content with `v-once`](#locking-content-with-v-once)
 
 ## Module Outline
 * #Templates
@@ -257,3 +258,10 @@ If you want to prevent this browser default, and handle it manually, there are t
 
 You can also listen to `ctrl` or `shift`, etx. All keybaord keys are possible here.
 
+# Locking Content with `v-once`
+
+This is rarely needed but can be useful. If you have some data that changes and you want to preserver its initial state and not reflect any other changes, you can use the `v-once` directive.
+
+```html
+<p v-once>{{ constant_variable }}
+```
