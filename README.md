@@ -31,7 +31,7 @@
 	3. Directive
 	4. Data
 	5. Methods
-	6. Computed Properties
+	6. [**Computed Properties**](Notes/Basics%20&%20Core%20Concepts#computed-properties): Dependency aware properties
 	7. Watchers
 
 2.  ### Intermediate
