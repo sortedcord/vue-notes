@@ -20,6 +20,7 @@ In this module we are going to explore Vue's core concepts.
 	- [Working with Event Arguments](#working-with-event-arguments)
 - [Using Native Event Object](#using-native-event-object)
 - [Exploring Event Modifiers](#exploring-event-modifiers)
+		- [Other Event Modifiers](#other-event-modifiers)
 
 ## Module Outline
 * #Templates
@@ -211,5 +212,48 @@ Here is an example showcasing how the input directive works
 
 # Exploring Event Modifiers
 
+As the name suggests event modifiers basically modify the events. Let's take the example of a form.
 
+```html
+<form>
+	<input type="text">
+	<button>Submit</button>
+</form>
+```
+The problem here is that once the button is clicked, the entire page will reload which is a default set by the browser. The browser sends an HTTP request to the server and then reloads, however here we have no such server. 
+
+If you want to prevent this browser default, and handle it manually, there are two ways of doing that.
+
+- ### Using `v-on:sumbit` 
+
+	We can do this with the submit event with the `v-on` directive which points to a method which can look something like-
+
+	```js
+	methods: {
+		submitForm(event) {
+			event.preventDefault(); //Prevents relaoding the page (Vanilla JS)
+			alert('submitted')
+		},
+	}
+	```
+
+- ### Using `.prevent` modifiers
+
+	There are certain built-in modifiers which can be connected to events to change the behaviour of that event. You can add modifiers with a `.` like so:
+
+	```html
+	<form v-on:submit.prevent="submitForm">
+	```
+
+### Other Event Modifiers
+
+`click.right/left` - Specify whether the user is right/left clicking
+
+[Here](#using-native-event-object) we looked at how with `v-on:input` runs the mothod with ever keystroke, but if we need to run a method once, that is when we press enter then we should instead use the `v-on:keyup` event along with the `.key` modifier like so-
+
+```html
+<input v-on:keyup.enter="mymethod">
+```
+
+You can also listen to `ctrl` or `shift`, etx. All keybaord keys are possible here.
 
