@@ -330,18 +330,18 @@ Watchers are best suited for scenarios like timers, or for sending HTTP requests
 		<th>Watch
 	</tr>
 	<tr>
-		<th>Use with event binding OR data binding
-		<th>Use with only data binding.
-		<th>Not used directly in template
+		<td>Use with event binding OR data binding
+		<td>Use with only data binding.
+		<td>Not used directly in template
 	</tr>
 	<tr>
-		<th>Data Binding: Method is executed for every "re-render" cycle of the component.
-		<th>Computed properties are only re-evaluated if one of their "used values" changed.
-		<th>Allows you to run any code in reaction to some changed data (e.g. send Http request)
+		<td>Data Binding: Method is executed for every "re-render" cycle of the component.
+		<td>Computed properties are only re-evaluated if one of their "used values" changed.
+		<td>Allows you to run any code in reaction to some changed data (e.g. send Http request)
 	</tr>
 	<tr>
-		<th>Use for events or data that really needs to be re-evaluated all the time.
-		<th>Use for data that depends on other data
-		<th>Use for any non-data update you want to make
+		<td>Use for events or data that really needs to be re-evaluated all the time.
+		<td>Use for data that depends on other data
+		<td>Use for any non-data update you want to make
 	</tr>
 </table>
