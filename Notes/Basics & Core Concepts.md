@@ -25,6 +25,7 @@ In this module we are going to explore Vue's core concepts.
 - [Two way binding](#two-way-binding)
 - [Computed Properties](#computed-properties)
 - [Working with watchers](#working-with-watchers)
+- [Methods vs Computed Properties vs Watchers](#methods-vs-computed-properties-vs-watchers)
 
 ## Module Outline
 
@@ -319,3 +320,28 @@ watch: {
 }
 ```
 Watchers are best suited for scenarios like timers, or for sending HTTP requests.
+
+# Methods vs Computed Properties vs Watchers
+
+<table>
+	<tr>
+		<th>Methods
+		<th>Computed
+		<th>Watch
+	</tr>
+	<tr>
+		<th>Use with event binding OR data binding
+		<th>Use with only data binding.
+		<th>Not used directly in template
+	</tr>
+	<tr>
+		<th>Data Binding: Method is executed for every "re-render" cycle of the component.
+		<th>Computed properties are only re-evaluated if one of their "used values" changed.
+		<th>Allows you to run any code in reaction to some changed data (e.g. send Http request)
+	</tr>
+	<tr>
+		<th>Use for events or data that really needs to be re-evaluated all the time.
+		<th>Use for data that depends on other data
+		<th>Use for any non-data update you want to make
+	</tr>
+</table>
