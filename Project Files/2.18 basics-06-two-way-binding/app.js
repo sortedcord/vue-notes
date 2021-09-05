@@ -3,15 +3,29 @@ const app = Vue.createApp({
     return {
       counter: 0,
       name: "",
+      fullname: '',
+      lastname: ''
     };
   },
   computed: {
-    fullname() {
-      if (this.name === "") {
-        return ""; // Only add surname if the name is not empty
+  },
+  watch: {
+    name(value) {
+      if (value === '') {
+        this.fullname = ''
       }
-      return this.name + " Surname";
+      else {
+        this.fullname = value + ' ' + this.lastname;
+      }
     },
+    lastname(value) {
+      if (value === '') {
+        this.fullname = ''
+      }
+      else {
+        this.fullname = this.name + ' ' + value;
+      }
+    }
   },
   methods: {
     outputFullname() {

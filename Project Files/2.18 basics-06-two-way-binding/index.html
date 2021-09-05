@@ -22,8 +22,9 @@
       <button v-on:click="reduce(5)">Subtract 5</button>
       <p>Result: {{ counter }}</p>
       <input type="text" v-model="name" />
+      <input type="text" v-model="lastname" />
       <button v-on:click="resetInput">Reset Input</button>
-      <p>Your Name: {{ outputFullname() }}</p>
+      <p>Your Name: {{ fullname }}</p>
     </section>
   </body>
 </html>

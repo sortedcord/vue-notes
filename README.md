@@ -32,23 +32,23 @@
 	4. Data
 	5. Methods
 	6. [**Computed Properties**](Notes/Basics%20&%20Core%20Concepts#computed-properties): Dependency aware properties
-	7. Watchers
+	7. [**Watchers**](Notes/Basics%20&%20Core%20Concepts#working-with-watchers): Dependency aware methods
 
 2.  ### Intermediate
-	1. Components
-	2. Component Communication
-	3. Behind the Scenes
-	4. Forms
-	5. Http
-	6. routing 
-	7. Animations
+	8. Components
+	9. Component Communication
+	10. Behind the Scenes
+	11. Forms
+	12. Http
+	13. routing 
+	14. Animations
 
 3. ### Advanced
-	1. Vuex
-	2. Authentication
-	3. Deployment and Optimizations
-	4. Composition-API
-	5. Re-using Code
+	15. Vuex
+	16. Authentication
+	17. Deployment and Optimizations
+	18. Composition-API
+	19. Re-using Code
 
 ## 📖 Course Projects
 

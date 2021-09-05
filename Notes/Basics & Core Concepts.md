@@ -24,6 +24,7 @@ In this module we are going to explore Vue's core concepts.
 - [Locking Content with `v-once`](#locking-content-with-v-once)
 - [Two way binding](#two-way-binding)
 - [Computed Properties](#computed-properties)
+- [Working with watchers](#working-with-watchers)
 
 ## Module Outline
 
@@ -303,3 +304,18 @@ This is an example of a computed property. Vue will be aware of its dependencies
 ```
 
 **NOTE**: Do note that I am using `fullname` instead of `fullname()` because like I have mentioned earlier we have to treat these computed properties as data properties. And this is why we should also name our computed properties similar to data properties.
+
+# Working with watchers
+
+Watchers are function which you can tell vue to execute when its dependencies change. It is similar to computed properties and you can use watchers instead of that.
+
+Similar to computed properties, we define a bunch of methods inside an object which `watcher` takes in as a value. 
+
+```js
+watch: {
+	name(newValue, oldValue) {
+		this.fullname = oldvalue + ' ' + ' something';
+	}
+}
+```
+Watchers are best suited for scenarios like timers, or for sending HTTP requests.
