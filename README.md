@@ -28,7 +28,7 @@
 1.  ### Basics
 	1. Core #Syntax
 	2. Templates
-	3. [**Directive**](Notes/Basics%20&%20Core%20Concepts#binding-attributes-with-the-v-bind-directive): 
+	3. [**Directive**](Notes/Basics%20&%20Core%20Concepts#binding-attributes-with-the-v-bind-directive): Instructions that are exclusively understood by vue in HTML template
 	4. Data
 	5. [**Methods**](Notes/Basics%20&%20Core%20Concepts#understanding-methods-in-vue-apps): Functions which can be executed when called upon
 	6. [**Computed Properties**](Notes/Basics%20&%20Core%20Concepts#computed-properties): Dependency aware properties
