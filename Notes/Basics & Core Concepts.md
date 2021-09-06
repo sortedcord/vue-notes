@@ -9,7 +9,7 @@ In this module we are going to explore Vue's core concepts.
 			- [Creating a Vue App](#creating-a-vue-app)
 			- [Establishing Connection](#establishing-connection)
 - [Interpolation and Data Binding](#interpolation-and-data-binding)
-- [Binding Attributes with the v-bind Directive](#binding-attributes-with-the-v-bind-directive)
+	- [Binding Attributes with the v-bind Directive](#binding-attributes-with-the-v-bind-directive)
 - [Understanding Methods in Vue Apps](#understanding-methods-in-vue-apps)
 - [Working with Data inside of a Vue App](#working-with-data-inside-of-a-vue-app)
 - [Ouputting Raw HTML code with v-html](#ouputting-raw-html-code-with-v-html)
@@ -26,6 +26,7 @@ In this module we are going to explore Vue's core concepts.
 - [Computed Properties](#computed-properties)
 - [Working with watchers](#working-with-watchers)
 - [Methods vs Computed Properties vs Watchers](#methods-vs-computed-properties-vs-watchers)
+- [Shorthands](#shorthands)
 
 ## Module Outline
 
@@ -88,7 +89,7 @@ Between those braces, you can reference your returned data object properties. Th
 
 If you use #interpolation outside the mounted portion, it will not work.
 
-# Binding Attributes with the v-bind Directive
+## Binding Attributes with the v-bind Directive
 
 If you want to pass a dynamic value to an attribute, such as the `href` attribute, we need to use the #vue-bind syntax.
 
@@ -345,3 +346,8 @@ Watchers are best suited for scenarios like timers, or for sending HTTP requests
 		<td>Use for any non-data update you want to make
 	</tr>
 </table>
+
+# Shorthands
+
+Directives like `v-on` and `v-bind` are so often used, that there are shorthands for them. For example, `v-on:click` can be replaced by `@click` and for `v-bind` directive you can just use a semicolon like `v-bind=value` can be written as `:value`.
+
