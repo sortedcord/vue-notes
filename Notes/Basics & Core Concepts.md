@@ -29,6 +29,7 @@ In this module we are going to explore Vue's core concepts.
 - [Shorthands](#shorthands)
 - [Dynamic Styling](#dynamic-styling)
 			- [**Example 1: Div selected: Make a `div` element highlighted when clicked upon**](#example-1-div-selected-make-a-div-element-highlighted-when-clicked-upon)
+	- [Adding CSS classes dynamically](#adding-css-classes-dynamically)
 
 ## Module Outline
 
@@ -403,4 +404,34 @@ We can bind style to some value using `v-bind`
 
 ```html
 <div :style="{borderColor: aselected ? 'red' : '#ccc'}">
+```
+
+## Adding CSS classes dynamically
+
+Let's say we have a speical css class-
+
+```css
+.active {
+        border-color : red;
+        background-color : salmon;
+      }
+```
+
+and we want to apply it to a particular element when it is clicked upon, so in order to this, we can bind the class attribute dynamically-
+
+```html
+<div 
+	:class="aselected ? 'demo active' : 'demo'" 
+	@click=""
+></div>
+```
+
+or it can be re-written as
+
+```html 
+<div 
+	class="demo"
+	:class="aselected ? 'demo active' : 'demo'" 
+	@click=""
+></div>
 ```

@@ -11,6 +11,15 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="https://unpkg.com/vue@next" defer></script>
     <script src="app.js" defer></script>
+
+    <style>
+      .active {
+        border: none !important;
+        box-shadow: 0px 0px 4px rgb(75, 75, 75);
+        border-radius: 7px;
+      }
+    </style>
+
   </head>
   <body>
     <header>
@@ -18,12 +27,20 @@
     </header>
     <section id="styling">
       <div 
-        class="demo" 
-        :style="{borderColor: aselected ? 'red' : '#ccc'}" 
+        class="demo"
+        :class="{active: aselected}" 
         @click="boxSelected('a')"
       ></div>
-      <div class="demo" @click="boxSelected('b')"></div>
-      <div class="demo" @click="boxSelected('c')"></div>
+      <div 
+        class="demo"
+        :class="{active: bselected}" 
+        @click="boxSelected('b')"
+      ></div>
+      <div 
+        class="demo"
+        :class="{active: cselected}" 
+        @click="boxSelected('c')"
+      ></div>
     </section>
   </body>
 </html>
