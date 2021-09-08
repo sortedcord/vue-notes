@@ -27,6 +27,8 @@ In this module we are going to explore Vue's core concepts.
 - [Working with watchers](#working-with-watchers)
 - [Methods vs Computed Properties vs Watchers](#methods-vs-computed-properties-vs-watchers)
 - [Shorthands](#shorthands)
+- [Dynamic Styling](#dynamic-styling)
+			- [**Example 1: Div selected: Make a `div` element highlighted when clicked upon**](#example-1-div-selected-make-a-div-element-highlighted-when-clicked-upon)
 
 ## Module Outline
 
@@ -60,7 +62,7 @@ const app = Vue.createApp();
 
 #### Establishing Connection
 
-And now we have to let vue know which part of the HTML section should be controlled by it. Since the section `user-goal` will be manipulated, we will use the `mount` #Methods on the `app` #object.
+And now we have to let vue know which part of the HTML section should be controlled by it. Since the section `user-goal` will be manipulated, we will use the `mount` #Methods on the `app` object.
 
 `mount` method required a string which holds a _CSS Selector_ which uniquely identifies the element in our DOM.
 
@@ -68,7 +70,7 @@ And now we have to let vue know which part of the HTML section should be control
 app.mount("#user-goal");
 ```
 
-We can now use Vue features to manipulate this section by passing an #object to create app. This can be used to configure the various options of this app.
+We can now use Vue features to manipulate this section by passing an object to create app. This can be used to configure the various options of this app.
 
 One option that we can set is the `data` option and it requires a function as a value. This data function returns an #object.
 
@@ -93,7 +95,7 @@ If you use #interpolation outside the mounted portion, it will not work.
 
 If you want to pass a dynamic value to an attribute, such as the `href` attribute, we need to use the `vue-bind` syntax.
 
-For that we use a vue #Directive which is a simple instruction we add in the HTML code. We can use such directives on HTML elements.
+For that we use a vue **Directive** which is a simple instruction we add in the HTML code. We can use such directives on HTML elements.
 
 The directive here is `v-bind` which is a reserved name detected and understood by Vue. It tells vue to set the value of sometihng. We add a colon after `v-bind` and then the attribute's name. For anchor tag and href it will be-
 
@@ -351,3 +353,54 @@ Watchers are best suited for scenarios like timers, or for sending HTTP requests
 
 Directives like `v-on` and `v-bind` are so often used, that there are shorthands for them. For example, `v-on:click` can be replaced by `@click` and for `v-bind` directive you can just use a semicolon like `v-bind=value` can be written as `:value`.
 
+# Dynamic Styling
+
+In vue, it is possible to change the style of elements dynamically on reaction to some event.
+
+#### **Example 1: Div selected: Make a `div` element highlighted when clicked upon**
+
+One way to do this would be to set 3 bool vars and then change their values when the user clicks on them.
+
+
+```html
+<div class="demo" @click="boxSelected('a')"></div>
+<div class="demo" @click="boxSelected('b')"></div>
+<div class="demo" @click="boxSelected('c')"></div>
+```
+
+```js
+data() {
+	return {
+		aselected = false,
+        bselected = false,
+        cselected = false,
+    }
+},
+methods: {
+    boxSelected(box) {
+		if (box === 'a') {
+			this.aselected = true
+            this.bselected = false
+            this.cselected = false
+        }
+        else if (box === 'b') {
+			this.aselected = false
+            this.bselected = true
+            this.cselected = false
+        }
+        else if (box === 'c') {
+			this.aselected = false
+            this.bselected = false
+            this.cselected = true
+        }
+    }
+}
+```
+
+So in order to make a box look like its highlighted, we can change its border colour to red.
+
+We can bind style to some value using `v-bind`
+
+```html
+<div :style="{borderColor: aselected ? 'red' : '#ccc'}">
+```
