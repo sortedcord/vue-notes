@@ -3,12 +3,17 @@ In this module we are going to explore Vue's core concepts. This is relatively a
 > Vue can be used to define the goal instead of the steps (-> **declarative approach**)
 > Connect Vue to HTML via "**mount**": Vue then **renders the real DOM** based on the connected template.
 Data can be output in that template.
+
 > You can **Bind data** via interpolation (**{{}}**) or the v-bind (":") directive.
 > You listen for events via v-on("@")
+
 In order to make these features more uselful, we rely on vue's reactivity
+
 > Vue updates the real DOM for you when bound data changes.
 > **Computed Properties** and **watchers** allow you to react to data changes.
+
 Vue can help in styling with achieving dynamic styling.
+
 > Dynamic CSS classes and inline style bindings are supported by vue.
 > Vue offers multiple **special syntaxes** (object, array-based) for efficient bindings.
 
