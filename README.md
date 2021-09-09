@@ -54,6 +54,12 @@
 
 - [**Demonslayer**](https://github.com/sortedcord/vue-monsterslayer) : A text-based RPG game made with vue without components.
 
+## ⭐ Self Projects
+
+Projects I assigned myself to better understand vue.
+
+- [**Openlibin**](https://github.com/sortedcord/openlibin) : An open source library built with vue
+
 
 ## 📚 Resources & References
 
