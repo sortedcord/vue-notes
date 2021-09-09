@@ -1,9 +1,8 @@
 In this module we are going to explore Vue's core concepts. This is relatively a big section of the course as we learn about the fundamentals of working with vue.
 
-> Vue can be used to define the goal instead of the steps (-> **declarative approach**)
-> Connect Vue to HTML via "**mount**": Vue then **renders the real DOM** based on the connected template.
-Data can be output in that template.
-
+> - Vue can be used to define the goal instead of the steps 	(-> **declarative approach**)
+> - Connect Vue to HTML via "**mount**": Vue then **renders 	the real DOM** based on the connected template.
+> - Data can be output in that template.
 > You can **Bind data** via interpolation (**{{}}**) or the v-bind (":") directive.
 > You listen for events via v-on("@")
 
