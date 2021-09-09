@@ -28,17 +28,17 @@
     <section id="styling">
       <div 
         class="demo"
-        :class="{active: aselected}" 
+        :class="aclasses" 
         @click="boxSelected('a')"
       ></div>
       <div 
         class="demo"
-        :class="{active: bselected}" 
+        :class="bclasses" 
         @click="boxSelected('b')"
       ></div>
       <div 
         class="demo"
-        :class="{active: cselected}" 
+        :class="cclasses" 
         @click="boxSelected('c')"
       ></div>
     </section>
