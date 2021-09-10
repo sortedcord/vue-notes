@@ -33,4 +33,10 @@ You should use only use `v-show` to an element whose visibility changes a lot.
 
 In order to render lists of data and outputting repeated content, you can use the `v-for` directive.
 
+```html
+<li @click="" v-for="goal in goals">{{goal}}</li>
+```
+`goal` can be named whatever you want and it will hold every value of goal in goals for every iteration (If that makes sense...). 
+
+
 
