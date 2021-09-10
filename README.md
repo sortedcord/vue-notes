@@ -14,7 +14,7 @@
 
 1. [Introduction](Notes/Getting%20Started)
 2. [Basics & Core Concepts](Notes/Basics%20&%20Core%20Concepts)
-3. [Rendering Conditional Content & Lists]()
+3. [Rendering Conditional Content & Lists](Notes/Rendering%20Conditional%20Content%20&%20Lists)
 4. [Course Project The Monster Slayer Game]()
 5. [Vue Behind the Scenes]()
 6. [Introduction to Components]()
